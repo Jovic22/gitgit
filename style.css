@@ -991,9 +991,8 @@ nav .navigacija .line{
     align-items: center;
     height: 100vh;
     width: 100vw;
-    justify-content: flex-end;
+    justify-content: center;
     bottom: 100vh;
-    border-radius: 0 0 45px 45px;
     transition-property: bottom;
     transition-duration: .5s;
 
@@ -1003,13 +1002,10 @@ nav .navigacija .line{
     margin: 30px;
   }
 
-  nav li.trojka {
-    margin-bottom: 20%;
-  }
   
   
   nav :checked ~ .Linkovi {
-    bottom: 40vh;
+    bottom: 0vh;
   }
 
   nav :checked ~ .navigacija .line:nth-child(1){
