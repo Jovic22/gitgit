@@ -1,0 +1,1120 @@
+/* === Google Font Import - Poppins === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'GSExtraBold';
+  src: url(GenerischSans-ExtraBold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'GSExtraBold';
+  src: url(GenerischSans-SemiBold.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'GSExtraBold';
+  src: url(GenerischSans-Light.ttf);
+  font-weight: thin;
+}
+
+
+
+body{
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+  margin: 0px;
+}
+
+section{
+  position: relative;  
+  height: 450px;
+  width: 1075px;
+  display: flex;
+  align-items: center;
+}
+
+.kita {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/55.jpg);
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#igrajsam {
+  align-self: center;
+}
+
+
+
+.swiper{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: block;
+  align-items: center;
+
+
+
+}
+
+
+
+.card{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background-image: url(images/BUJANOVAC.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 0;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+.card .card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+section {
+  width: 100vw;
+  height: 120vh;
+  background-image: url(images/Pozadina2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.card .button{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+
+.card .button .aboutMe:hover{
+  opacity: 100%;
+
+}
+.card .button .hireMe:hover{
+  opacity: 100%;
+}
+
+.card .button .aboutMe{ 
+  background-image: url(images/Faceicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;
+  opacity: 75%;
+}
+
+.card .button .hireMe{
+  background-image: url(images/Instaicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;  
+  opacity: 75%;
+
+}
+
+.swiper-pagination{
+  position: absolute;
+
+}
+
+.swiper-pagination-bullet{
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: white;
+}
+
+.swiper-button-next, .swiper-button-prev{
+  opacity: 0.5;
+  color: transparent;
+  transition: all 0.3s ease;
+}
+
+
+.swiper-button-next:hover, .swiper-button-prev:hover{
+  opacity: 1;
+  color: transparent;
+}
+
+
+
+.swiper-button-next {
+  background-image: url(images/buttondesno.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.swiper-button-next:focus, .swiper-button-prev:focus {
+  outline: none;
+}
+
+
+.swiper-button-next:active {
+  border-color: transparent;
+  background-color: transparent;
+  cursor: none;
+}
+
+.swiper-button-next, .swiper-button-prev, a{
+ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ -webkit-tap-highlight-color: transparent;
+ 
+}
+
+.swiper-button-prev{
+  background-image: url(images/buttonlevo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+
+
+.card1{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card1::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background-image: url(images/SABAC.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 0;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+
+.card1 .card1-content{
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  z-index: 100;
+}
+
+
+
+.card1 .button{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+
+
+
+
+.card1 .button .aboutMe1:hover{
+  opacity: 100%;
+
+}
+.card1 .button .hireMe1:hover{
+  opacity: 100%;
+}
+
+.card1 .button .aboutMe1{ 
+  background-image: url(images/Faceicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;
+  opacity: 75%;
+}
+
+.card1 .button .hireMe1{
+  background-image: url(images/Instaicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;  
+  opacity: 75%;
+
+}
+
+.card1-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+nav .Linkovi {
+  text-decoration: none;
+  width: 340px;
+  position: fixed;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  max-width: 100%;
+  background-color: rgb(0,0,0,0.9);
+  padding: 0px;
+  z-index: 12;
+  height: 60px;
+  border-radius: 0 0 0 0;
+}
+
+
+nav .Linkovi li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+nav .Linkovi li::after {
+  content: '';
+  height: 5px;
+  width: 0;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 1s;
+  
+}
+
+nav .Linkovi li:hover:after {
+  width: 100%;
+}
+nav .Linkovi a {
+  text-decoration: none;
+  font-family: 'GSExtraBold';
+  font-weight: normal;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+nav .Linkovi li:focus {
+  border-bottom-style: inset;
+  border: 10px;
+  border-color: brown;
+  position: absolute;
+  display: inline-block;
+}
+
+.Igraj {
+  width: 800px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-top: 0;
+  
+  max-width: 100%;
+  position: absolute;
+
+}
+
+
+
+.card2{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card2::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background-image: url(images/BUJANOVAC.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 0;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+.card2 .card2-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+
+.card2 .button{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+
+.card2 .button .aboutMe2:hover{
+  opacity: 100%;
+
+}
+.card2 .button .hireMe2:hover{
+  opacity: 100%;
+}
+
+.card2 .button .aboutMe2{ 
+  background-image: url(images/Faceicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;
+  opacity: 75%;
+}
+
+.card2 .button .hireMe2{
+  background-image: url(images/Instaicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;  
+  opacity: 75%;
+
+}
+
+
+.card3{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card3::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background-image: url(images/ARANDELOVAC.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 0;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+.card3 .card3-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.card3 .button{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+
+.card3 .button .aboutMe3:hover{
+  opacity: 100%;
+
+}
+.card3 .button .hireMe3:hover{
+  opacity: 100%;
+}
+
+.card3 .button .aboutMe3{ 
+  background-image: url(images/Faceicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;
+  opacity: 75%;
+}
+
+.card3 .button .hireMe3{
+  background-image: url(images/Instaicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;  
+  opacity: 75%;
+
+}
+
+
+
+.card4{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card4::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background-image: url(images/BACKIJARAK.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 0;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+
+.card4 .card4-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+
+.card4 .button{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+
+.card4 .button .aboutMe4:hover{
+  opacity: 100%;
+
+}
+.card4 .button .hireMe4:hover{
+  opacity: 100%;
+}
+
+.card4 .button .aboutMe4{ 
+  background-image: url(images/Faceicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;
+  opacity: 75%;
+}
+
+.card4 .button .hireMe4{
+  background-image: url(images/Instaicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;  
+  opacity: 75%;
+
+}
+
+.card5{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card5::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background-image: url(images/BRUS.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 0;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+
+.card5 .card5-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+
+.card5 .button{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+
+.card5 .button .aboutMe5:hover{
+  opacity: 100%;
+
+}
+.card5 .button .hireMe5:hover{
+  opacity: 100%;
+}
+
+.card5 .button .aboutMe5{ 
+  background-image: url(images/Faceicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;
+  opacity: 75%;
+}
+
+.card5 .button .hireMe5{
+  background-image: url(images/Instaicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;  
+  opacity: 75%;
+
+}
+
+
+.card6{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card6::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background-image: url(images/VRANJE.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 0;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+
+.card6 .card6-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+
+.card6 .button{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+
+.card6 .button .aboutMe6:hover{
+  opacity: 100%;
+
+}
+.card6 .button .hireMe6:hover{
+  opacity: 100%;
+}
+
+.card6 .button .aboutMe6{ 
+  background-image: url(images/Faceicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;
+  opacity: 75%;
+}
+
+.card6 .button .hireMe6{
+  background-image: url(images/Instaicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;  
+  opacity: 75%;
+
+}
+
+
+.card7{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card7::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background-image: url(images/SAJKAS.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 0;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+
+.card7 .card7-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+
+.card7 .button{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+
+.card7 .button .aboutMe7:hover{
+  opacity: 100%;
+
+}
+.card7 .button .hireMe7:hover{
+  opacity: 100%;
+}
+
+.card7 .button .aboutMe7{ 
+  background-image: url(images/Faceicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;
+  opacity: 75%;
+}
+
+.card7 .button .hireMe7{
+  background-image: url(images/Instaicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;  
+  opacity: 75%;
+
+}
+
+
+.card8{
+  position: relative;
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card8::before{
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  background-image: url(images/ALEKSANDROVAC.png);
+  background-size: contain;
+  background-position: center;
+  border-radius: 0 0 0 0;
+  background-repeat: no-repeat;
+  margin-top: 160px;
+}
+
+
+.card8 .card8-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+
+.card8 .button{
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 200px;
+}
+
+
+.card8 .button .aboutMe8:hover{
+  opacity: 100%;
+
+}
+.card8 .button .hireMe8:hover{
+  opacity: 100%;
+}
+
+.card8 .button .aboutMe8{ 
+  background-image: url(images/Faceicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;
+  opacity: 75%;
+}
+
+.card8 .button .hireMe8{
+  background-image: url(images/Instaicon.png);
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-family: 'GSExtraBold';
+  height: 80px;
+  width: 80px;  
+  opacity: 75%;
+
+}
+
+#nav-togGle {
+  position: fixed;
+  left: -30px;
+}
+
+
+nav .navigacija {
+  position: fixed;
+  top: 2%;
+  z-index: 17;
+  display: none;
+  align-self: flex-end;
+}
+
+nav .navigacija .line{
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 3px;
+  transition: all .5s ease-in-out;
+
+}
+
+@media screen and (max-width: 550px) {
+  nav .Linkovi {
+    float: none;
+    position: fixed;
+    z-index: 16;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0,0.9);
+    width: auto;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    bottom: 100vh;
+    transition-property: bottom;
+    transition-duration: .5s;
+
+   }
+
+  nav .Linkovi li {
+    margin: 30px;
+  }
+
+  
+  
+  nav :checked ~ .Linkovi {
+    bottom: 0vh;
+  }
+
+  nav :checked ~ .navigacija .line:nth-child(1){
+    transform: translateY(10px) rotate(225deg);
+  }
+
+  nav :checked ~ .navigacija .line:nth-child(3){
+    transform: translateY(-10px) rotate(-225deg);
+  }
+
+  nav :checked ~ .navigacija .line:nth-child(2){
+    opacity: 0;
+  }
+ 
+
+  nav .navigacija{
+    display: inline-block;
+    right: 7%;
+
+  }
+  
+}
+
+
+
+
+
+
+@media screen and (min-width: 550px) {
+  nav .Linkovi a {
+    font-size: 18px;
+
+  }
+  nav .Linkovi li {
+    margin: 0 50px;
+  }
+
+  nav .Linkovi {
+    width: 500px;
+    border-radius: 0 0 40px 40px;
+    background-color: rgb(0, 0, 0,0.5);
+
+  }
+  li {
+    text-align: center;
+  }
+  nav .minilogo {
+  position: fixed;
+  opacity: 0;
+  display: flex;
+  z-index: -1;
+  }
+  
+}
+
+.Mozete {
+  font-family:'GSExtraBold';
+  font-weight: normal;
+  font-size: 20px;
+  margin: 0;
+  position: absolute;
+  z-index: 15;
+  color: white;
+  padding-top: 80px;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.PlayLokacije {
+  position: absolute;
+  z-index: 15;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  margin-top: 10px;
+
+}
+
+.PlayLokacije1 {
+  position: relative;
+ 
+}
+
+.minilogo2 {
+  width: 150px;
+  padding-top: 25px;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.kontaktfo {
+  font-family:'GSExtraBold';
+  font-weight: thin;
+  font-size: 20px;
+  margin: 0;
+  position: absolute;
+  z-index: 15;
+  color: white;
+  padding-top: 110px;
+  text-align: center;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: block;
+  line-height: 30px;
+}
+
+.kita1 {
+  height: 25vh;
+  width: 100vw;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
